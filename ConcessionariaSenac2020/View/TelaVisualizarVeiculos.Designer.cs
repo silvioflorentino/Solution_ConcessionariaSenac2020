@@ -30,39 +30,39 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dataGridViewTodosVeiculos = new System.Windows.Forms.DataGridView();
             this.buttonBuscarTodosVeiculos = new System.Windows.Forms.Button();
+            this.dataGridViewTodosVeiculos = new System.Windows.Forms.DataGridView();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Marca = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modelo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Placa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewBuscaPlaca = new System.Windows.Forms.DataGridView();
-            this.buttonBuscaPlaca = new System.Windows.Forms.Button();
-            this.textBoxBuscaPlaca = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBoxBuscaPlaca = new System.Windows.Forms.TextBox();
+            this.buttonBuscaPlaca = new System.Windows.Forms.Button();
+            this.dataGridViewBuscaPlaca = new System.Windows.Forms.DataGridView();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CodigoPlaca = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBoxBuscaCodigoVeiculo = new System.Windows.Forms.TextBox();
-            this.buttonBuscaCodigoVeiculo = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridViewBuscaCodigoVeiculo = new System.Windows.Forms.DataGridView();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.buttonBuscaCodigoVeiculo = new System.Windows.Forms.Button();
+            this.textBoxBuscaCodigoVeiculo = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTodosVeiculos)).BeginInit();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBuscaPlaca)).BeginInit();
+            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBuscaCodigoVeiculo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,33 +89,14 @@
             this.tabPage1.Text = "Completo";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // buttonBuscarTodosVeiculos
             // 
-            this.tabPage2.Controls.Add(this.label1);
-            this.tabPage2.Controls.Add(this.textBoxBuscaPlaca);
-            this.tabPage2.Controls.Add(this.buttonBuscaPlaca);
-            this.tabPage2.Controls.Add(this.dataGridViewBuscaPlaca);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(568, 310);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Placa";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.dataGridViewBuscaCodigoVeiculo);
-            this.tabPage3.Controls.Add(this.buttonBuscaCodigoVeiculo);
-            this.tabPage3.Controls.Add(this.textBoxBuscaCodigoVeiculo);
-            this.tabPage3.Controls.Add(this.label2);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(568, 310);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Código";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.buttonBuscarTodosVeiculos.Location = new System.Drawing.Point(163, 43);
+            this.buttonBuscarTodosVeiculos.Name = "buttonBuscarTodosVeiculos";
+            this.buttonBuscarTodosVeiculos.Size = new System.Drawing.Size(243, 33);
+            this.buttonBuscarTodosVeiculos.TabIndex = 1;
+            this.buttonBuscarTodosVeiculos.Text = "Buscar Todos os Veículos";
+            this.buttonBuscarTodosVeiculos.UseVisualStyleBackColor = true;
             // 
             // dataGridViewTodosVeiculos
             // 
@@ -134,15 +115,6 @@
             this.dataGridViewTodosVeiculos.RowTemplate.Height = 24;
             this.dataGridViewTodosVeiculos.Size = new System.Drawing.Size(506, 167);
             this.dataGridViewTodosVeiculos.TabIndex = 0;
-            // 
-            // buttonBuscarTodosVeiculos
-            // 
-            this.buttonBuscarTodosVeiculos.Location = new System.Drawing.Point(163, 43);
-            this.buttonBuscarTodosVeiculos.Name = "buttonBuscarTodosVeiculos";
-            this.buttonBuscarTodosVeiculos.Size = new System.Drawing.Size(243, 33);
-            this.buttonBuscarTodosVeiculos.TabIndex = 1;
-            this.buttonBuscarTodosVeiculos.Text = "Buscar Todos os Veículos";
-            this.buttonBuscarTodosVeiculos.UseVisualStyleBackColor = true;
             // 
             // Codigo
             // 
@@ -174,6 +146,45 @@
             this.Placa.MinimumWidth = 6;
             this.Placa.Name = "Placa";
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Controls.Add(this.textBoxBuscaPlaca);
+            this.tabPage2.Controls.Add(this.buttonBuscaPlaca);
+            this.tabPage2.Controls.Add(this.dataGridViewBuscaPlaca);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(568, 310);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Placa";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(51, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 17);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Digite a Placa:";
+            // 
+            // textBoxBuscaPlaca
+            // 
+            this.textBoxBuscaPlaca.Location = new System.Drawing.Point(180, 47);
+            this.textBoxBuscaPlaca.Name = "textBoxBuscaPlaca";
+            this.textBoxBuscaPlaca.Size = new System.Drawing.Size(156, 22);
+            this.textBoxBuscaPlaca.TabIndex = 2;
+            // 
+            // buttonBuscaPlaca
+            // 
+            this.buttonBuscaPlaca.Location = new System.Drawing.Point(382, 46);
+            this.buttonBuscaPlaca.Name = "buttonBuscaPlaca";
+            this.buttonBuscaPlaca.Size = new System.Drawing.Size(75, 31);
+            this.buttonBuscaPlaca.TabIndex = 1;
+            this.buttonBuscaPlaca.Text = "Buscar";
+            this.buttonBuscaPlaca.UseVisualStyleBackColor = true;
+            // 
             // dataGridViewBuscaPlaca
             // 
             this.dataGridViewBuscaPlaca.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -191,31 +202,6 @@
             this.dataGridViewBuscaPlaca.RowTemplate.Height = 24;
             this.dataGridViewBuscaPlaca.Size = new System.Drawing.Size(433, 150);
             this.dataGridViewBuscaPlaca.TabIndex = 0;
-            // 
-            // buttonBuscaPlaca
-            // 
-            this.buttonBuscaPlaca.Location = new System.Drawing.Point(382, 46);
-            this.buttonBuscaPlaca.Name = "buttonBuscaPlaca";
-            this.buttonBuscaPlaca.Size = new System.Drawing.Size(75, 31);
-            this.buttonBuscaPlaca.TabIndex = 1;
-            this.buttonBuscaPlaca.Text = "Buscar";
-            this.buttonBuscaPlaca.UseVisualStyleBackColor = true;
-            // 
-            // textBoxBuscaPlaca
-            // 
-            this.textBoxBuscaPlaca.Location = new System.Drawing.Point(180, 47);
-            this.textBoxBuscaPlaca.Name = "textBoxBuscaPlaca";
-            this.textBoxBuscaPlaca.Size = new System.Drawing.Size(156, 22);
-            this.textBoxBuscaPlaca.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 17);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Digite a Placa:";
             // 
             // Column3
             // 
@@ -247,30 +233,19 @@
             this.CodigoPlaca.MinimumWidth = 6;
             this.CodigoPlaca.Name = "CodigoPlaca";
             // 
-            // label2
+            // tabPage3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(37, 49);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 17);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Digite o Código:";
-            // 
-            // textBoxBuscaCodigoVeiculo
-            // 
-            this.textBoxBuscaCodigoVeiculo.Location = new System.Drawing.Point(174, 49);
-            this.textBoxBuscaCodigoVeiculo.Name = "textBoxBuscaCodigoVeiculo";
-            this.textBoxBuscaCodigoVeiculo.Size = new System.Drawing.Size(130, 22);
-            this.textBoxBuscaCodigoVeiculo.TabIndex = 1;
-            // 
-            // buttonBuscaCodigoVeiculo
-            // 
-            this.buttonBuscaCodigoVeiculo.Location = new System.Drawing.Point(334, 45);
-            this.buttonBuscaCodigoVeiculo.Name = "buttonBuscaCodigoVeiculo";
-            this.buttonBuscaCodigoVeiculo.Size = new System.Drawing.Size(75, 30);
-            this.buttonBuscaCodigoVeiculo.TabIndex = 2;
-            this.buttonBuscaCodigoVeiculo.Text = "Buscar";
-            this.buttonBuscaCodigoVeiculo.UseVisualStyleBackColor = true;
+            this.tabPage3.Controls.Add(this.dataGridViewBuscaCodigoVeiculo);
+            this.tabPage3.Controls.Add(this.buttonBuscaCodigoVeiculo);
+            this.tabPage3.Controls.Add(this.textBoxBuscaCodigoVeiculo);
+            this.tabPage3.Controls.Add(this.label2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(568, 310);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Código";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // dataGridViewBuscaCodigoVeiculo
             // 
@@ -320,6 +295,31 @@
             this.Column9.MinimumWidth = 6;
             this.Column9.Name = "Column9";
             // 
+            // buttonBuscaCodigoVeiculo
+            // 
+            this.buttonBuscaCodigoVeiculo.Location = new System.Drawing.Point(334, 45);
+            this.buttonBuscaCodigoVeiculo.Name = "buttonBuscaCodigoVeiculo";
+            this.buttonBuscaCodigoVeiculo.Size = new System.Drawing.Size(75, 30);
+            this.buttonBuscaCodigoVeiculo.TabIndex = 2;
+            this.buttonBuscaCodigoVeiculo.Text = "Buscar";
+            this.buttonBuscaCodigoVeiculo.UseVisualStyleBackColor = true;
+            // 
+            // textBoxBuscaCodigoVeiculo
+            // 
+            this.textBoxBuscaCodigoVeiculo.Location = new System.Drawing.Point(174, 49);
+            this.textBoxBuscaCodigoVeiculo.Name = "textBoxBuscaCodigoVeiculo";
+            this.textBoxBuscaCodigoVeiculo.Size = new System.Drawing.Size(130, 22);
+            this.textBoxBuscaCodigoVeiculo.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(37, 49);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(108, 17);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Digite o Código:";
+            // 
             // TelaVisualizarVeiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -331,12 +331,12 @@
             this.Text = "Concessionária Senac 2020";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTodosVeiculos)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBuscaPlaca)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTodosVeiculos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBuscaPlaca)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBuscaCodigoVeiculo)).EndInit();
             this.ResumeLayout(false);
 

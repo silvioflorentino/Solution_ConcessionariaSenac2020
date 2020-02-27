@@ -56,11 +56,23 @@
     <Compile Include="View\TelaAlterarVeiculos.Designer.cs">
       <DependentUpon>TelaAlterarVeiculos.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\TelaCadastrarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TelaCadastrarClientes.Designer.cs">
+      <DependentUpon>TelaCadastrarClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\TelaCadastrarVeiculos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\TelaCadastrarVeiculos.Designer.cs">
       <DependentUpon>TelaCadastrarVeiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\TelaDeletarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TelaDeletarClientes.Designer.cs">
+      <DependentUpon>TelaDeletarClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="View\TelaDeletarVeiculos.cs">
       <SubType>Form</SubType>
@@ -73,6 +85,12 @@
     </Compile>
     <Compile Include="View\TelaPrincipal.Designer.cs">
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\TelaVisualizarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TelaVisualizarClientes.Designer.cs">
+      <DependentUpon>TelaVisualizarClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="View\TelaVisualizarVeiculos.cs">
       <SubType>Form</SubType>
@@ -92,14 +110,23 @@
     <EmbeddedResource Include="View\TelaAlterarVeiculos.resx">
       <DependentUpon>TelaAlterarVeiculos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\TelaCadastrarClientes.resx">
+      <DependentUpon>TelaCadastrarClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\TelaCadastrarVeiculos.resx">
       <DependentUpon>TelaCadastrarVeiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TelaDeletarClientes.resx">
+      <DependentUpon>TelaDeletarClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\TelaDeletarVeiculos.resx">
       <DependentUpon>TelaDeletarVeiculos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\TelaPrincipal.resx">
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TelaVisualizarClientes.resx">
+      <DependentUpon>TelaVisualizarClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\TelaVisualizarVeiculos.resx">
       <DependentUpon>TelaVisualizarVeiculos.cs</DependentUpon>
