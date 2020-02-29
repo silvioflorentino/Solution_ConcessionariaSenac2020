@@ -45,5 +45,11 @@ namespace ConcessionariaSenac2020.View
         {
             Application.Exit();
         }
+
+        private void cadastrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            TelaCadastrarClientes telaCadastrarClientes = new TelaCadastrarClientes();
+            telaCadastrarClientes.ShowDialog();
+        }
     }
 }

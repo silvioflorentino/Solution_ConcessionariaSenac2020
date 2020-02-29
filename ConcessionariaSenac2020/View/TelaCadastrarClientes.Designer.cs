@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBoxCPF = new System.Windows.Forms.TextBox();
             this.buttonSalvarClientes = new System.Windows.Forms.Button();
             this.textBoxEnderecoCliente = new System.Windows.Forms.TextBox();
             this.textBoxNomeCliente = new System.Windows.Forms.TextBox();
@@ -37,7 +38,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBoxCPF = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +60,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cadastrar Clientes";
             // 
+            // textBoxCPF
+            // 
+            this.textBoxCPF.Location = new System.Drawing.Point(142, 60);
+            this.textBoxCPF.Name = "textBoxCPF";
+            this.textBoxCPF.Size = new System.Drawing.Size(177, 28);
+            this.textBoxCPF.TabIndex = 12;
+            // 
             // buttonSalvarClientes
             // 
             this.buttonSalvarClientes.Location = new System.Drawing.Point(336, 289);
@@ -68,6 +75,7 @@
             this.buttonSalvarClientes.TabIndex = 11;
             this.buttonSalvarClientes.Text = "Salvar";
             this.buttonSalvarClientes.UseVisualStyleBackColor = true;
+            this.buttonSalvarClientes.Click += new System.EventHandler(this.buttonSalvarClientes_Click);
             // 
             // textBoxEnderecoCliente
             // 
@@ -129,13 +137,6 @@
             this.label3.Size = new System.Drawing.Size(63, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Fone:";
-            // 
-            // textBoxCPF
-            // 
-            this.textBoxCPF.Location = new System.Drawing.Point(142, 60);
-            this.textBoxCPF.Name = "textBoxCPF";
-            this.textBoxCPF.Size = new System.Drawing.Size(177, 28);
-            this.textBoxCPF.TabIndex = 12;
             // 
             // TelaCadastrarClientes
             // 

@@ -12,7 +12,7 @@ namespace ConcessionariaSenac2020.Control
 {
     class ManipulaVeiculos
     {
-
+       
         public void cadastrarVeiculos()
         {
             SqlConnection cn = new SqlConnection(Conexao.conectar());
@@ -39,6 +39,41 @@ namespace ConcessionariaSenac2020.Control
 
                 throw;
             }
+        }
+
+        public void visualizarCodigoVeiculos()
+        {
+            SqlConnection cn = new SqlConnection(Conexao.conectar());
+            SqlCommand cmd = new SqlCommand("pVisuCodigoVeiculos",cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            try
+            {
+                cmd.Parameters.AddWithValue("@codigo", Veiculos.Codigo);
+                cn.Open();
+                var dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    Veiculos.Codigo =  Convert.ToInt32(dr["codigoVeiculos"]);
+                    Veiculos.Marca = dr["marcaVeiculos"].ToString();
+                    Veiculos.Modelo = dr["modeloVeiculos"].ToString(); ;
+                    Veiculos.Cor = dr["corVeiculos"].ToString();
+                    Veiculos.Placa = dr["placaVeiculos"].ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Dados não Encontrados");
+                }
+
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+          
         }
 
      

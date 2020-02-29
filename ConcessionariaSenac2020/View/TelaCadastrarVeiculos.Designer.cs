@@ -33,11 +33,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonSalvarVeiculos = new System.Windows.Forms.Button();
             this.comboBoxMarca = new System.Windows.Forms.ComboBox();
             this.textBoxPlaca = new System.Windows.Forms.TextBox();
             this.textBoxModelo = new System.Windows.Forms.TextBox();
             this.textBoxCor = new System.Windows.Forms.TextBox();
-            this.buttonSalvarVeiculos = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -100,6 +100,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cadastrar Veículos";
             // 
+            // buttonSalvarVeiculos
+            // 
+            this.buttonSalvarVeiculos.Location = new System.Drawing.Point(336, 289);
+            this.buttonSalvarVeiculos.Name = "buttonSalvarVeiculos";
+            this.buttonSalvarVeiculos.Size = new System.Drawing.Size(102, 51);
+            this.buttonSalvarVeiculos.TabIndex = 11;
+            this.buttonSalvarVeiculos.Text = "Salvar";
+            this.buttonSalvarVeiculos.UseVisualStyleBackColor = true;
+            this.buttonSalvarVeiculos.Click += new System.EventHandler(this.buttonSalvarVeiculos_Click);
+            // 
             // comboBoxMarca
             // 
             this.comboBoxMarca.FormattingEnabled = true;
@@ -136,15 +146,6 @@
             this.textBoxCor.Name = "textBoxCor";
             this.textBoxCor.Size = new System.Drawing.Size(222, 28);
             this.textBoxCor.TabIndex = 7;
-            // 
-            // buttonSalvarVeiculos
-            // 
-            this.buttonSalvarVeiculos.Location = new System.Drawing.Point(336, 289);
-            this.buttonSalvarVeiculos.Name = "buttonSalvarVeiculos";
-            this.buttonSalvarVeiculos.Size = new System.Drawing.Size(102, 51);
-            this.buttonSalvarVeiculos.TabIndex = 11;
-            this.buttonSalvarVeiculos.Text = "Salvar";
-            this.buttonSalvarVeiculos.UseVisualStyleBackColor = true;
             // 
             // TelaCadastrarVeiculos
             // 

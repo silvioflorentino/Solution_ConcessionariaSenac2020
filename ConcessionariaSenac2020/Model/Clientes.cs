@@ -8,7 +8,7 @@ namespace ConcessionariaSenac2020.Model
 {
     class Clientes
     {
-        private static int cpf;
+        private static Int32 cpf;
         private static string nome;
         private static string fone;
         private static string endereco;

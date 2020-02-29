@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\Conexao.cs" />
+    <Compile Include="Control\ManipulaCliente.cs" />
     <Compile Include="Control\ManipulaVeiculos.cs" />
     <Compile Include="Model\Clientes.cs" />
     <Compile Include="Model\Veiculos.cs" />

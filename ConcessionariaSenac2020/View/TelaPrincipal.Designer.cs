@@ -70,7 +70,7 @@
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(117, 26);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -133,25 +133,26 @@
             // cadastrarToolStripMenuItem1
             // 
             this.cadastrarToolStripMenuItem1.Name = "cadastrarToolStripMenuItem1";
-            this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(155, 26);
+            this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.cadastrarToolStripMenuItem1.Text = "Cadastrar";
+            this.cadastrarToolStripMenuItem1.Click += new System.EventHandler(this.cadastrarToolStripMenuItem1_Click);
             // 
             // visualizarToolStripMenuItem1
             // 
             this.visualizarToolStripMenuItem1.Name = "visualizarToolStripMenuItem1";
-            this.visualizarToolStripMenuItem1.Size = new System.Drawing.Size(155, 26);
+            this.visualizarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.visualizarToolStripMenuItem1.Text = "Visualizar";
             // 
             // alterarToolStripMenuItem1
             // 
             this.alterarToolStripMenuItem1.Name = "alterarToolStripMenuItem1";
-            this.alterarToolStripMenuItem1.Size = new System.Drawing.Size(155, 26);
+            this.alterarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.alterarToolStripMenuItem1.Text = "Alterar";
             // 
             // deletarToolStripMenuItem1
             // 
             this.deletarToolStripMenuItem1.Name = "deletarToolStripMenuItem1";
-            this.deletarToolStripMenuItem1.Size = new System.Drawing.Size(155, 26);
+            this.deletarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.deletarToolStripMenuItem1.Text = "Deletar";
             // 
             // TelaPrincipal
